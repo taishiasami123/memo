@@ -48,8 +48,11 @@
           $max_page = ceil($count['cnt'] / 5);
           if ($page < $max_page):
         ?>
-          <a href="index.php?page=<?php print($page+1); ?>"><?php print($page + 1); ?>ページ目へ</a>
-          <?php endif; ?>
+          <a href="index.php?page=<?php print($page+1); ?>"><?php print($page + 1); ?>ページ目へ</a><br>
+        <?php endif; ?>
+        <div class="bl_inputLink_inner">
+          <p><a href="input.html">メモ投稿画面はこちら</a></p>
+        </div>
       </article>
   </main>
 </body>

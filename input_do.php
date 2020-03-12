@@ -23,6 +23,7 @@
         echo 'メモが登録されました';
       ?>
     </pre>
+    <p><a href="index.php">メモ一覧はこちら</a></p>
   </main>
 </body>
 </html>
